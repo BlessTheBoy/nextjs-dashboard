@@ -8,7 +8,11 @@ import {
   LatestInvoicesSkeleton,
   RevenueChartSkeleton,
 } from "@/app/ui/skeletons";
-import { ErrorBoundary } from "next/dist/client/components/error-boundary";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Dashboard",
+};
 
 export const experimental_ppr = true;
 
